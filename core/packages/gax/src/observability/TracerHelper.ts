@@ -1,4 +1,4 @@
-import { context, trace, Tracer } from '@opentelemetry/api';
+import { context, trace, Tracer } from `@opentelemetry/api`;
 import * as grpc from '@grpc/grpc-js';
 
 export interface StaticTraceContext {
