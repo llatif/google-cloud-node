@@ -44,4 +44,4 @@ jobs:
       - run: node ./bin/linter.mjs --strict
         name: Run monorepo linter
         env:
-          GIT_DIFF_ARG: "HEAD^1"
+          GIT_DIFF_ARG: "HEAD^1...HEAD"
