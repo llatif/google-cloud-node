@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+import {performance} from 'perf_hooks';
 import {GrpcService, GrpcServiceConfig} from './common-grpc/service';
 import {PreciseDate} from '@google-cloud/precise-date';
 import {replaceProjectIdToken} from './helper';
@@ -1947,7 +1948,22 @@ class Spanner extends GrpcService {
           stream.destroy(err);
           return;
         }
+        const reqId = config.gaxOpts?.otherArgs?.options?.reqId;
+        let m3GaxHeaderMarked = false;
+        let m3GaxDataMarked = false;
         requestFn()
+          .on('response', () => {
+            if (!m3GaxHeaderMarked && reqId) {
+              m3GaxHeaderMarked = true;
+              performance.mark(`M3_gax_header_recv_${reqId}`);
+            }
+          })
+          .on('data', () => {
+            if (!m3GaxDataMarked && reqId) {
+              m3GaxDataMarked = true;
+              performance.mark(`M3_gax_data_recv_${reqId}`);
+            }
+          })
           .on('error', err => {
             stream.destroy(err);
           })
