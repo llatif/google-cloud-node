@@ -5,6 +5,24 @@
       "changes": [
         {
           "type": "feat",
+          "sha": "f51ceac8b5bb56b71292602f8c45d967c3fe585d",
+          "message": "Split handwritten spanner library from its gapics and protos",
+          "issues": [
+            "8927"
+          ],
+          "scope": "spanner"
+        }
+      ],
+      "version": "8.11.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/spanner",
+      "id": "e53a7915-9ec4-44a0-b15e-ef0efc740f60",
+      "createTime": "2026-08-11T00:02:28.913Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
           "sha": "61ea9c807dfb3eda4ddd377da9a496d17ba48389",
           "message": "Update API sources and regenerate",
           "issues": [
@@ -89222,5 +89240,5 @@
       "createTime": "2023-01-28T04:18:24.718Z"
     }
   ],
-  "updateTime": "2026-08-10T18:31:51.385Z"
+  "updateTime": "2026-08-11T00:02:28.913Z"
 }
