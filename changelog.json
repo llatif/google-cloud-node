@@ -4,6 +4,25 @@
     {
       "changes": [
         {
+          "type": "feat",
+          "sha": "58307799cfd9fe1ece7982479a0219f35d7128a6",
+          "message": "Update storage to minimum Node version of 22.",
+          "issues": [
+            "9079",
+            "8985"
+          ],
+          "breakingChangeNote": "Update storage to minimum Node version of 22. ([#9079](https://github.com/googleapis/google-cloud-node/issues/9079))"
+        }
+      ],
+      "version": "8.0.0",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/storage",
+      "id": "99de6e3f-1a6c-424c-a37b-b2b814c49f52",
+      "createTime": "2026-08-11T18:32:23.423Z"
+    },
+    {
+      "changes": [
+        {
           "type": "fix",
           "sha": "77dab53bf6d8a4b911f04e49eef444057d817619",
           "message": "Destroy local read stream on upload write failure to prevent resource leaks",
@@ -89277,5 +89296,5 @@
       "createTime": "2023-01-28T04:18:24.718Z"
     }
   ],
-  "updateTime": "2026-08-11T00:02:28.769Z"
+  "updateTime": "2026-08-11T18:32:23.423Z"
 }
