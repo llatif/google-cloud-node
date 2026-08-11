@@ -5,6 +5,322 @@
       "changes": [
         {
           "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        },
+        {
+          "type": "fix",
+          "sha": "004850f426dc1eb7a1e1ae577a5605bd12dee418",
+          "message": "Upgrade @opentelemetry/core to ^2.8.0 to resolve CVE-2026-54285 (#8792)",
+          "issues": [
+            "9092",
+            "8792"
+          ],
+          "scope": "pubsub"
+        }
+      ],
+      "version": "6.0.1",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/pubsub",
+      "id": "8d49bef1-2c7c-4068-8f3b-d704409d7885",
+      "createTime": "2026-08-11T21:10:41.976Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "7.0.1",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/logging-winston",
+      "id": "992a0fb4-e5b5-458b-97d9-9a84e4241d7b",
+      "createTime": "2026-08-11T21:10:41.949Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "6.0.1",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/logging-bunyan",
+      "id": "d4830eff-2f7b-4550-9499-ff761d29d418",
+      "createTime": "2026-08-11T21:10:41.922Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "12.0.1",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/logging",
+      "id": "2d9cfa49-fe0b-4e91-b1a1-09ef3dc9147c",
+      "createTime": "2026-08-11T21:10:41.880Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "6.0.1",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/dns",
+      "id": "76343926-d2d8-4a87-92b5-19d6481e4ee0",
+      "createTime": "2026-08-11T21:10:41.849Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "4.0.1",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/error-reporting",
+      "id": "ee14fd5c-6fde-46b2-b9df-e9a402d6e6ff",
+      "createTime": "2026-08-11T21:10:41.820Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "11.0.1",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/datastore",
+      "id": "0a9474d3-ea34-4179-ba11-b4661a166731",
+      "createTime": "2026-08-11T21:10:41.781Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "8.0.1",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/profiler",
+      "id": "ff76fbcb-3a57-4395-a892-97468b4e34f9",
+      "createTime": "2026-08-11T21:10:41.757Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "7.1.1",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/bigtable",
+      "id": "6db366ce-8bbb-4e74-94f1-2bb377c3f2b8",
+      "createTime": "2026-08-11T21:10:41.733Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "6.0.1",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/bigquery-storage",
+      "id": "815d2601-b0bc-466f-8265-065cc368f5f5",
+      "createTime": "2026-08-11T21:10:41.705Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "9.0.2",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/bigquery",
+      "id": "5a0917c6-c246-46f0-bb3a-47bf8b91d318",
+      "createTime": "2026-08-11T21:10:41.679Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "9.0.3",
+      "language": "JAVASCRIPT",
+      "artifactName": "googleapis-common",
+      "id": "7e411c66-efbb-41c2-a099-7b400adf904c",
+      "createTime": "2026-08-11T21:10:41.652Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "11.0.2",
+      "language": "JAVASCRIPT",
+      "artifactName": "google-auth-library",
+      "id": "f23a6b08-d02b-4edd-8c8a-3526f7bb28b6",
+      "createTime": "2026-08-11T21:10:41.619Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "9.0.3",
+      "language": "JAVASCRIPT",
+      "artifactName": "gcp-metadata",
+      "id": "61e2f476-7d4d-47a6-9f71-39783560ffec",
+      "createTime": "2026-08-11T21:10:41.590Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "7.3.1",
+      "language": "JAVASCRIPT",
+      "artifactName": "gaxios",
+      "id": "2cf520cc-0cdc-425a-b05c-3bf94cec278b",
+      "createTime": "2026-08-11T21:10:41.564Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "6.0.2",
+      "language": "JAVASCRIPT",
+      "artifactName": "google-gax",
+      "id": "6aebf0f6-1d56-48a0-a17c-438afb2a6ed0",
+      "createTime": "2026-08-11T21:10:41.535Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "0.2.2",
+      "language": "JAVASCRIPT",
+      "artifactName": "gapic-node-processing",
+      "id": "9016baec-3a74-4748-b291-f679c6f5d77d",
+      "createTime": "2026-08-11T21:10:41.508Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
+          "sha": "fad57ff4b9164712426a041fc61db035859f9043",
+          "message": "Ensure node 22 dependencies are up to date so they get the latest patches for core and handwritten libraries",
+          "issues": [
+            "9116"
+          ]
+        }
+      ],
+      "version": "5.0.1",
+      "language": "JAVASCRIPT",
+      "artifactName": "@google-cloud/gapic-generator",
+      "id": "af2f63fa-6851-4344-a6d5-371c6aa2f292",
+      "createTime": "2026-08-11T21:10:41.478Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "fix",
           "sha": "77dab53bf6d8a4b911f04e49eef444057d817619",
           "message": "Destroy local read stream on upload write failure to prevent resource leaks",
           "issues": [
@@ -89305,5 +89621,5 @@
       "createTime": "2023-01-28T04:18:24.718Z"
     }
   ],
-  "updateTime": "2026-08-11T00:02:28.769Z"
+  "updateTime": "2026-08-11T21:10:41.976Z"
 }
